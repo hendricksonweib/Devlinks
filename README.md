@@ -3,6 +3,6 @@
 # Projeto de Dev link proporcionado pelo curso Incode 2023.2 módulo 2 na trilha de Front-end, onde deve ser criado uma página de para links.
 
 
-[Prototype Figma]([https://www.figma.com/file/ke4BrdeK03PdudoAYHHSNG/Page-links?type=design&node-id=1-2&mode=design&t=ED1PtGG8RCdlejCz-0"0](https://www.figma.com/file/ke4BrdeK03PdudoAYHHSNG/Page-links?type=design&node-id=1-2&mode=design&t=ED1PtGG8RCdlejCz-0)https://www.figma.com/file/ke4BrdeK03PdudoAYHHSNG/Page-links?type=design&node-id=1-2&mode=design&t=ED1PtGG8RCdlejCz-0)
+[Prototype Figma](https://www.figma.com/file/ke4BrdeK03PdudoAYHHSNG/Page-links?type=design&node-id=1-2&mode=design&t=ED1PtGG8RCdlejCz-0"0)
 
-https://www.figma.com/file/ke4BrdeK03PdudoAYHHSNG/Page-links?type=design&node-id=1-2&mode=design&t=ED1PtGG8RCdlejCz-0
+
