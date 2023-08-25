@@ -3,26 +3,19 @@
     padding: 0;
 }
 :root{
-    --bg-color: #121212;
+    --bg-color: #ECECEC;
     --bg-gradient:linear-gradient( #F6F6F6,#A5A5A5);
-    --bg-button:#121212;
+    --color-sobre:#4b4b4b;
+    --text-color:#ECECEC;
 }
 .light{
-    --bg-color: #ECECEC;
-    --bg-button:#ECECEC;
+    --bg-color: #121212;
+    --color-sobre:#ECECEC;
+    --text-color:#121212;
 }
 body{
     background-color: var(--bg-color);
     font-family: 'Inter', sans-serif;
-}
-button{
-    position: absolute;
-    bottom: 20;
-    right: 20px;
-    padding: 12px;
-    background: var(--bg-button);
-    border-radius: 50px;
-    margin-top: 1%;
 }
 #conteiner{
     display: flex;
@@ -52,8 +45,8 @@ nav{
 }
 .navation1{
     background-image: var(--bg-gradient);
-    height: 400px;
-    width: 352px;
+    height: 390px;
+    width: 305px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,8 +56,8 @@ nav{
 }
 .navation2{
     background-image: var(--bg-gradient);
-    height: 400px;
-    width: 352px;
+    height: 390px;
+    width: 305px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,8 +67,8 @@ nav{
 }
 .navation3{
     background-image: var(--bg-gradient);
-    height: 400px;
-    width: 352px;
+    height: 390px;
+    width: 305px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,4 +120,45 @@ p{
     left: 0;
     width: 20%;
     z-index: 1;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.fotoPerfil{
+    margin: 2%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:var(--color-sobre);
+    color: var(--text-color);
+    border-radius: 10px;
+    height: 50vh;
+    width: 30vw;
+    gap: 15px;
+}
+.textMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0;
+}
+button{
+    position: absolute;
+    bottom: 20;
+    right: 20px;
+    padding: 12px;
+    border-radius: 50px;
+}
+.back{
+  margin: 2%;
+    color: var(--color-sobre);
 }
