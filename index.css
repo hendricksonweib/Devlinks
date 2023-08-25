@@ -4,20 +4,25 @@
 }
 :root{
     --bg-color: #121212;
-    --span: var(.lightmode)
+    --bg-gradient:linear-gradient( #F6F6F6,#A5A5A5);
+    --bg-button:#121212;
 }
 .light{
     --bg-color: #ECECEC;
+    --bg-button:#ECECEC;
 }
 body{
     background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
 }
-.lightmode{
-    padding:1%;
-
-}
-.darkmode{
-    padding:1%;
+button{
+    position: absolute;
+    bottom: 20;
+    right: 20px;
+    padding: 12px;
+    background: var(--bg-button);
+    border-radius: 50px;
+    margin-top: 1%;
 }
 #conteiner{
     display: flex;
@@ -40,10 +45,13 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 50%;
+    z-index: 2;
+    gap: 1%;
+    margin: 2%;
 }
 .navation1{
-    font-family: 'Inter', sans-serif;
-    background-image: linear-gradient( #F6F6F6,#A5A5A5);
+    background-image: var(--bg-gradient);
     height: 400px;
     width: 352px;
     display: flex;
@@ -51,10 +59,10 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: all 0.3s ease;
 }
 .navation2{
-    font-family: 'Inter', sans-serif;
-    background-image: linear-gradient( #F6F6F6,#A5A5A5);
+    background-image: var(--bg-gradient);
     height: 400px;
     width: 352px;
     display: flex;
@@ -62,10 +70,10 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: all 0.3s ease;
 }
 .navation3{
-    font-family: 'Inter', sans-serif;
-    background-image: linear-gradient( #F6F6F6,#A5A5A5);
+    background-image: var(--bg-gradient);
     height: 400px;
     width: 352px;
     display: flex;
@@ -73,6 +81,7 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: all 0.3s ease;
 }
 .icon{
     display: flex;
@@ -98,7 +107,7 @@ p{
     padding: 9px;
     background: #D5D5D5;
     border-radius: 15px;
-    transition:background 0.2s;
+    transition: 0.2s;
 }
 #socialmedia a:hover{
     background: rgb(167, 167, 167);
@@ -106,12 +115,16 @@ p{
     border-radius: 15px;
 }
 .path{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
+    width: 20%;
+    z-index: 1;
 }
 .foto{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 20%;
+    z-index: 1;
 }
