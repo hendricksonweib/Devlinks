@@ -159,6 +159,14 @@ button{
     border-radius: 50px;
 }
 .back{
-  margin: 2%;
+    margin: 2%;
     color: var(--color-sobre);
+}
+.conteinerTecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
